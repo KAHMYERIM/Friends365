@@ -316,7 +316,8 @@ header{
 	padding:20px 0 20px 40px;  
     font-size: 16px;
     font-weight: 700;
-	background: url(../image/sub5-2/more.png) no-repeat 96% 50% #dff6ff;
+	background: url(../image/sub5-2/more.png) no-repeat 96% 50% #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 #board li:hover a{
     color: #fff;
@@ -348,8 +349,8 @@ header{
 
 /* content2 */
 .content2{
-    width: 1200px;
-    margin: 170px auto 200px;
+    width: 1320px;
+    margin: 150px auto 200px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -358,12 +359,18 @@ header{
     flex-wrap: wrap;
 }
 .content2 a{
-    width: 550px;
+    border-radius: 50px;
+    background: #fff;
+    width: 639px;
+    height: 271px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
     box-sizing: border-box;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 50px;
 }
 .content2 a:hover .text h2{
     color: #F47721;
@@ -385,11 +392,12 @@ header{
 }
 .box1,
 .box2{
-    margin-bottom: 120px;
+    margin-bottom: 40px;
 }
 .text{
-    margin-left: 50px;
     background: url(../image/sub5-2/Next2.png) no-repeat top right;
+    width: 271px;
+    margin-left: 50px;
 }
 .box3 .text{
     background: none;
@@ -397,7 +405,7 @@ header{
 .box3 h3:nth-child(3){
     color: #00AEEF;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .text h2{
     font-size: 30px;
