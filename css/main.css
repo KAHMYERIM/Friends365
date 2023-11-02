@@ -935,7 +935,7 @@ input::-webkit-search-results-decoration{
     width:90%;
     min-width: 1600px;
     height: 800px;
-    background: #cccccc;
+    background: #d4d4d4;
     border-radius: 0 180px 180px 0;
     position: relative;
 }

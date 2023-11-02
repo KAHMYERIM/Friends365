@@ -206,7 +206,7 @@ header{
     padding: 100px 0;
 }
 #menu ul{
-    background-color: #e4e4e4;
+    background-color: #d4d4d4;
     border-radius: 80px;
     width: 765px;
     margin: 0 auto;
@@ -220,21 +220,21 @@ header{
     font-weight: 800;
 }
 #menu li:nth-child(1) a{
-    color: #474747;
+    color: #fff;
     width: 255px;
     padding: 15px 0;
     border-radius: 80px;
     display: block;
-    background-color: #e4e4e4;
+    background-color: #d4d4d4;
     text-align: center;
 }
 #menu li:nth-child(2) a{
-    color: #474747;
+    color: #fff;
     width: 255px;
     padding: 15px 0;
     border-radius: 80px;
     display: block;
-    background-color: #e4e4e4;
+    background-color: #d4d4d4;
     text-align: center;
 }
 #menu li:nth-child(3) a{
@@ -351,7 +351,7 @@ header{
     color: #F47721;
 }
 table{
-    border: 1px solid #e4e4e4;
+    border: 1px solid #d4d4d4;
     width: 1320px;
     text-align: center;
     border-collapse: collapse;
@@ -359,13 +359,13 @@ table{
 }
 table th{
     color: #474747;
-    background-color: #e4e4e4;
+    background-color: #d4d4d4;
     padding: 25px;
     font-size: 18px;
     font-weight: 500;
 }
 table td{
-    border: 1px solid #e4e4e4;
+    border: 1px solid #d4d4d4;
     width: calc(1320px / 4);
     padding: 25px;
     font-size: 18px;
