@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=1600">
+        <title>프렌즈365</title>
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="./asset/favicon/favicon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/svg+xml" href="./asset/favicon/favicon.svg"/>
+        <!-- css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <!-- 슬라이드 css, 수정X -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+        <!-- aos css -->
+        <link rel="stylesheet" href="./asset/css/font.css">
+        <link rel="stylesheet" href="./asset/css/main.css">
+        <!-- 내 css -->
+    </head>
+
+    <body>
+        <!-- header -->
+        <div class="top">
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li>｜</li>
+                <li><a href="#"><img src="./asset/image/main/pin.png" alt="핀"/> 매장찾기</a></li>
+            </ul>
+        </div><!-- /top menu -->
+        <header>
+            <a href="./index.html" class="logo"><img src="./asset/image/main/logo.png" alt="로고"/></a>
+            <div class="header_in">
+                <ul class="nav">
+                    <li>
+                        <a href="./sub/sub01_story01.html">브랜드소개</a>
+                        <ul class="sub">
+                            <li><a href="./sub/sub01_story01.html#menu">브랜드 스토리</a></li>
+                            <li><a href="./sub/sub01_story02.html#menu">캐릭터 스토리</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./sub/sub02_product01.html">상품</a>
+                        <ul class="sub">
+                            <li><a href="./sub/sub02_product01.html">행사 상품</a></li>
+                            <li><a href="./sub/sub02_product02.html">차별화 상품</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./sub/sub03_service01.html">서비스</a>
+                        <ul class="sub">
+                            <li><a href="./sub/sub03_service01.html#menu">멤버십 소개</a></li>
+                            <li><a href="./sub/sub03_service02.html#menu">제휴 서비스</a></li>
+                            <li><a href="./sub/sub03_service03.html#menu">편의 서비스</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./sub/sub04_evet.html">이벤트</a>
+                        <ul class="sub">
+                            <li><a href="./sub/sub04_evet.html">진행중인 이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./sub/sub05_consult01.html">창업안내</a>
+                        <ul class="sub">
+                            <li><a href="./sub/sub05_consult01.html#menu">창업 가이드</a></li>
+                            <li><a href="./sub/sub05_consult02.html#menu">창업 상담</a></li>
+                        </ul>
+                    </li>
+                </ul><!-- /gnb -->
+                <ul class="lan">
+                    <li>
+                        <a href="#none">KR <img src="./asset/image/main/more.png" alt="더보기"/></a>
+                        <ul class="lan_sub">
+                            <li><a href="#">KR</a></li>
+                            <li><a href="#">EN</a></li>
+                            <li><a href="#">CN</a></li>
+                        </ul>
+                    </li>
+                </ul><!-- /lan -->
+            </div>
+        </header>
+        <!-- /header -->
+
+        <!-- main banner -->
+        <div class="swiper-container gallery-center">
+            <div class="gallery-center_inner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./asset/image/main/banner1.jpg" alt="메인배너1"/></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./asset/image/main/banner2.jpg" alt="메인배너2"/></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./asset/image/main/banner3.jpg" alt="메인배너3"/></a>
+                    </div>
+                </div><!-- /slide -->
+
+                <!-- 블릿 버튼 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- /main banner -->
+
+        <!-- content1 -->
+        <div class="content1" data-aos="fade-up" data-aos-duration="1000">
+            <div class="content1_in">
+                <div class="text">
+                    <h1>이달의 상품</h1>
+                    <h2>이달의 행사상품을 만나보세요.</h2>
+                </div>
+                <a href="#">전체보기 <img src="./asset/image/main/plus_circle1.png" alt="전체보기"/></a>
+            </div>
+            <!-- 탭메뉴 -->
+            <div class="tab">
+                <ul class="tabnav">
+                    <li class="bg1"><a href="#tab01">1+1</a></li>
+                    <li class="bg2"><a href="#tab02">2+1</a></li>
+                    <li class="bg3"><a href="#tab03">NEW</a></li>
+                </ul>
+                <div class="tabcontent">
+                    <div id="tab01">
+                        <!-- slide -->
+                        <div class="swiper-container gallery">
+                            <div class="gallery_inner">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_1.jpg" alt="이미지"/>
+                                                <h3>롯데)펩시제로망고캔355ml</h3>
+                                                <h4>1,900원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_2.jpg" alt="이미지"/>
+                                                <h3>CJ)컵반스팸김치덮밥</h3>
+                                                <h4>4,800원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_3.jpg" alt="이미지"/>
+                                                <h3>빙그레)끌레클린딸기파인</h3>
+                                                <h4>12,900원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_4.jpg" alt="이미지"/>
+                                                <h3>해태)레모나아이스</h3>
+                                                <h4>2,200원</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_5.jpg" alt="이미지"/>
+                                                <h3>아이깨끗해)순핸드워시</h3>
+                                                <h4>7,900원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_6.jpg" alt="이미지"/>
+                                                <h3>웅진)티즐피치우롱티P500</h3>
+                                                <h4>2,200원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_7.jpg" alt="이미지"/>
+                                                <h3>CJ)구이한판그릴스모크60g</h3>
+                                                <h4>3,300원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>1+1</p>
+                                                <img src="./asset/image/main/1+1_8.jpg" alt="이미지"/>
+                                                <h3>네슬레)프루팁스젤리</h3>
+                                                <h4>2,500원</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 블릿 버튼 -->
+                                <div class="swiper-pagination"></div>
+                                <!-- 화살표 버튼 -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <!-- /slide -->
+                    </div>
+                    <div id="tab02">
+                        <!-- slide -->
+                        <div class="swiper-container gallery">
+                            <div class="gallery_inner">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_1.jpg" alt="이미지"/>
+                                                <h3>롯데)펩시콜라P600ml</h3>
+                                                <h4>2,000원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_2.jpg" alt="이미지"/>
+                                                <h3>오뚜기)한입쏙쏙미트볼</h3>
+                                                <h4>4,400원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_3.jpg" alt="이미지"/>
+                                                <h3>매일)페레로로쉐3구</h3>
+                                                <h4>2,700원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_4.jpg" alt="이미지"/>
+                                                <h3>대상)고구마츄60g</h3>
+                                                <h4>3,900원</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_5.jpg" alt="이미지"/>
+                                                <h3>CJ)햇반흑미밥210g</h3>
+                                                <h4>2,800원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_6.jpg" alt="이미지"/>
+                                                <h3>농심)오징어짬뽕큰사발컵</h3>
+                                                <h4>1,800원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_7.jpg" alt="이미지"/>
+                                                <h3>일신)리콜라허브레몬</h3>
+                                                <h4>2,500원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>2+1</p>
+                                                <img src="./asset/image/main/2+1_8.jpg" alt="이미지"/>
+                                                <h3>동원)양반전복죽</h3>
+                                                <h4>4,500원</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 블릿 버튼 -->
+                                <div class="swiper-pagination"></div>
+                                <!-- 화살표 버튼 -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <!-- /slide -->
+                    </div>
+                    <div id="tab03">
+                        <!-- slide -->
+                        <div class="swiper-container gallery">
+                            <div class="gallery_inner">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new1.jpg" alt="이미지"/>
+                                                <h3>롯데)허쉬쿠키앤크림볼</h3>
+                                                <h4>1,700원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new2.jpg" alt="이미지"/>
+                                                <h3>롯데)빈츠끼리</h3>
+                                                <h4>2,800원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new3.jpg" alt="이미지"/>
+                                                <h3>웅진)자연은말린복숭아500</h3>
+                                                <h4>2,500원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new4.jpg" alt="이미지"/>
+                                                <h3>서주)1000샌드밀크</h3>
+                                                <h4>1,000원</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new5.jpg" alt="이미지"/>
+                                                <h3>큐피트)샤르르캔디</h3>
+                                                <h4>2,500원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new6.jpg" alt="이미지"/>
+                                                <h3>롯데)오잉노가리칩60g</h3>
+                                                <h4>1,700원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new7.jpg" alt="이미지"/>
+                                                <h3>엘지)메타몽키링립밤</h3>
+                                                <h4>15,900원</h4>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="product">
+                                            <div class="product_in">
+                                                <p>NEW</p>
+                                                <img src="./asset/image/main/new8.jpg" alt="이미지"/>
+                                                <h3>빙그레)초코붕어싸만코</h3>
+                                                <h4>2,200원</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 블릿 버튼 -->
+                                <div class="swiper-pagination"></div>
+                                <!-- 화살표 버튼 -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <!-- /slide -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /content1 -->
+
+        <!-- content2 -->
+        <div class="content2">
+            <div class="content2_1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <img src="./asset/image/main/good.png" alt="최고"/>
+                <div class="content2_in">
+                    <h1>프렌즈들의 PICK</h1>
+                    <h2>매월 달라지는 프렌즈365의 Best 상품 모아보기</h2>
+                    <ul class="content2_in2">
+                        <li>
+                            <div class="product2_in">
+                                <a href="#">
+                                    <h2>01</h2>
+                                    <img src="./asset/image/main/best1.jpg" alt="이미지" class="image"/>
+                                    <h3>농심)먹태깡청양마요맛60g</h3>
+                                    <h4>1,700원</h4>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product2_in">
+                                <a href="#">
+                                    <h2>02</h2>
+                                    <img src="./asset/image/main/best2.jpg" alt="이미지" class="image"/>
+                                    <h3>삼양)불닭볶음면컵</h3>
+                                    <h4>1,800원</h4>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product2_in">
+                                <a href="#">
+                                    <h2>03</h2>
+                                    <img src="./asset/image/main/best3.jpg" alt="이미지" class="image"/>
+                                    <h3>코카)코카콜라제로레몬캔355ml</h3>
+                                    <h4>2,000원</h4>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product2_in">
+                                <a href="#">
+                                    <h2>04</h2>
+                                    <img src="./asset/image/main/best4.jpg" alt="이미지" class="image"/>
+                                    <h3>빙그레)메로나맛우유240ml</h3>
+                                    <h4>1,700원</h4>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product2_in">
+                                <a href="#">
+                                    <h2>05</h2>
+                                    <img src="./asset/image/main/best5.jpg" alt="이미지" class="image"/>
+                                    <h3>롯데푸드)빠삐코</h3>
+                                    <h4>1,500원</h4>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /content2 -->
+
+        <!-- banner -->
+        <a href="#" class="banner"><img src="./asset/image/main/banner4.png" alt="이벤트배너"/></a>
+        <!-- /banner -->
+
+        <!-- content3 -->
+        <div class="content3" data-aos="fade-up" data-aos-duration="1000">
+            <h1>프렌즈들의 레시피</h1>
+            <h2>다양한 레시피로 즐기는 프렌즈365</h2>
+            <ul class="content3_in">
+                <li data-aos="fade-up" data-aos-delay="300">
+                    <div>
+                        <div class="product3_in">
+                            <a href="#">
+                                <div class="recipe"><img src="./asset/image/main/recipe1.jpg" alt="레시피1"/></div>
+                                <div class="text1">
+                                    <h4><img src="./asset/image/main/blog.png" alt="블로그"/>오치즈후라이</h4>
+                                    <p>[재료] 오!감자, 스트링치즈, 체다치즈</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <div class="product3_in">
+                            <a href="#">
+                                <div class="recipe"><img src="./asset/image/main/recipe2.jpg"alt="레시피2"/></div>
+                                <div class="text1">
+                                    <h4><img src="./asset/image/main/facebook.png"alt="페이스북"/>강다니엘정식</h4>
+                                    <p>[재료] 팔도짜장면, 불닭볶음면, 식초, 후추, 고추가루</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                    <div>
+                        <div class="product3_in">
+                            <a href="#">
+                                <div class="recipe"><img src="./asset/image/main/recipe3.jpg" alt="레시피3"/></div>
+                                <div class="text1">
+                                    <h4><img src="./asset/image/main/tictok.png" alt="틱톡"/>밴쯔정식</h4>
+                                    <p>[재료] 위대한피자, 떡볶이, 스트링치즈, 스모크닭다리···</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="600">
+                    <div>
+                        <div class="product3_in">
+                            <a href="#">
+                                <div class="recipe"><img src="./asset/image/main/recipe4.jpg" alt="레시피1"/></div>
+                                <div class="text1">
+                                    <h4><img src="./asset/image/main/instagram.png" alt="인스타그램"/>마크정식</h4>
+                                    <p>[재료] 자이언트 떡볶이, 불닭볶음면, 소세지핫바,모짜렐라···</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- /content3 -->
+
+        <!-- content4 -->
+        <div class="content4">
+            <div class="content4_in" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+                <div class="box1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="text2">
+                        <h1>나에게 필요한 상품은?</h1>
+                        <h2>쉽고 빠르게 필요한 상품을 검색해보세요.</h2>
+                        <form action="#">
+                            <input type="search" placeholder="키워드를 입력해주세요."/>
+                            <a href="#"><img src="./asset/image/main/search.png" alt="검색"/></a>
+                        </form>
+                    </div>
+                    <img src="./asset/image/main/character.png" alt="캐릭터" class="cha"/>
+                    <a href="#" class="key1">
+                        <img src="./asset/image/main/ai1.png" alt="일러"/>
+                        <p>생활용품</p>
+                    </a>
+                    <a href="#" class="key2">
+                        <img src="./asset/image/main/ai2.png" alt="일러"/>
+                        <p>맥주</p>
+                    </a>
+                    <a href="#" class="key3">
+                        <img src="./asset/image/main/ai3.png" alt="일러"/>
+                        <p>식품</p>
+                    </a>
+                    <a href="#" class="key4">
+                        <img src="./asset/image/main/ai4.png" alt="일러"/>
+                        <p>간편식</p>
+                    </a>
+                    <a href="#" class="key5">
+                        <img src="./asset/image/main/ai5.png" alt="일러"/>
+                        <p>커피</p>
+                    </a>
+                    <a href="#" class="key6">
+                        <img src="./asset/image/main/ai6.png" alt="일러"/>
+                        <p>달달</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /content4 -->
+
+        <!-- content5 -->
+        <div class="content5">
+            <img src="./asset/image/main/character2.png" alt="캐릭터"/>
+            <a href="#" class="bg4" data-aos="zoom-in-right">
+                <div class="text3">
+                    <h3>고객센터</h3>
+                    <p>상품문의, 창업상담 무엇을 도와드릴까요?</p>
+                    <h4>전체보기 <img src="./asset/image/main/plus_circle2.png" alt="더보기"/></h4>
+                </div>
+            </a>
+        </div>
+        <!-- /content5 -->
+
+        <!-- content6 -->
+        <div class="content6">
+            <div class="content6_in" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+                <img src="./asset/image/main/cloud1.png" alt="구름" class="cl1"/>
+                <img src="./asset/image/main/building.png" alt="건물" class="bu"/>
+                <img src="./asset/image/main/cloud2.png" alt="구름" class="cl2"/>
+                <div class="text4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <h1>원하는 매장찾기</h1>
+                    <h2>쉽고 빠르게 원하는 매장을 찾아보세요!</h2>
+                    <form action="#">
+                        <input type="search" placeholder="키워드를 입력해주세요."/>
+                        <a href="#"><img src="./asset/image/main/search.png" alt="검색"/></a>
+                    </form>
+                    <div class="keyword">
+                        <a href="#">택배</a>
+                        <a href="#">ATM</a>
+                        <a href="#">양주</a>
+                        <a href="#">24시간</a>
+                        <a href="#">무인</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /content6 -->
+
+        <!-- content7 -->
+        <div class="content7" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div>
+                <h5>공지사항</h5>
+                <a href="#"><img src="./asset/image/main/plus_circle3.png" alt="더보기"/></a>
+                <a href="#">
+                    <h6>Friends365와 함께할 경영주님 찾습니다!</h6>
+                    <span>2024.01.28</span>
+                </a>
+                <a href="#">
+                    <h6>개인정보처리방침 개정 안내(2024.01.21)</h6>
+                    <span>2024.01.14</span>
+                </a>
+                <a href="#">
+                    <h6>기준일 설정 공고</h6>
+                    <span>2023.12.16</span>
+                </a>
+            </div>
+            <div>
+                <h5>보도자료</h5>
+                <a href="#"><img src="./asset/image/main/plus_circle3.png" alt="더보기"/></a>
+                <a href="#">
+                    <h6>프렌즈365, 대한민국 편의점 최초 싱가포...</h6>
+                    <span>2024.01.28</span>
+                </a>
+                <a href="#">
+                    <h6>프렌즈365, 판매 때 마다 샌드위치 상품 1위!</h6>
+                    <span>2024.01.06</span>
+                </a>
+                <a href="#">
+                    <h6>프렌즈365, 삼청동에 NFT 팝업 열었다!</h6>
+                    <span>2023.12.25</span>
+                </a>
+            </div>
+        </div>
+        <!-- /content7 -->
+
+        <!-- content8 -->
+        <div class="b_banner">
+            <div class="box2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <h1>365일<br/>우리를 위한<br/>편의점</h1>
+                <img src="./asset/image/main/character3.png" alt="캐릭터"/>
+            </div>
+        </div>
+        <!-- /content8 -->
+
+        <!-- footer -->
+        <footer>
+            <div class="box3">
+                <div class="left">
+                    <ul class="list1">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">입점상담</a></li>
+                        <li><a href="#">제휴/광고문의</a></li>
+                    </ul>
+                    <h5>(주)프렌즈365</h5>
+                    <p>
+                        대표이사: 감예림 / 사업자등록번호: 199-25-01112<br/>
+                        서울특별시 성동구 성수동 2가 408-4 베스트원타워 / 고객센터: 02-0408-1400 / Fax: 02-1112-1230
+                    </p>
+                    <p>COPYRIGHT (C) Friends365.ALL RIGHT RESERVED</p>
+                </div>
+                <div class="right">
+                    <ul class="list2">
+                        <li><a href="#"><img src="./asset/image/main/twitter_f.png" alt="트위터"/></a></li>
+                        <li><a href="#"><img src="./asset/image/main/blog_f.png" alt="블로그"/></a></li>
+                        <li><a href="#"><img src="./asset/image/main/youtube_f.png" alt="유튜브"/></a></li>
+                        <li><a href="#"><img src="./asset/image/main/facebook_f.png" alt="페이스북"/></a></li>
+                        <li><a href="#"><img src="./asset/image/main/instagram_f.png" alt="인스타그램"/></a></li>
+                    </ul>
+                    <a href="./index.html"><img src="./asset/image/main/logo_footer.png" alt="로고"/></a>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!-- 탑버튼 -->
+        <a href="#" class="top_b"><img src="./asset/image/main/fixed.png" alt="top버튼" width="80px"/></a>
+        <!-- /탑버튼 -->
+
+        <!-- js -->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <!-- 제이쿼리 라이브러리,수정X -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <!-- 슬라이드 js, 수정X -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- aos 라이브러리 -->
+        <script src="./asset/js/main.js"></script>
+        <!-- 내 js -->
+    </body>
+</html>
