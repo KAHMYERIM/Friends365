@@ -295,19 +295,18 @@ header{
 .content2_in> div> a{
     display: block;
     margin: 30px 0 70px;
-    line-height: 36px;
+    line-height: 34px;
     text-align: start;
     padding-left: 25px;
     font-weight: 800;
     color: #464646;
-    letter-spacing: 0.5px;
     font-size: 24px;
 }
 .content2_in> div:hover> a{
     color: #F47721;
 }
 .content2_in> div> a> span{
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 600;
 }
 
