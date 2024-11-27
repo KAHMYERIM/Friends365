@@ -204,6 +204,7 @@ header {
     padding-top: 10px;
     font-family: 'Jalnan';
     letter-spacing: 5px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 .main_in2 img {
     position: absolute;

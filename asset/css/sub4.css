@@ -215,6 +215,7 @@ header{
     font-family: 'Jalnan';
     letter-spacing: 4px;
     font-size: 100px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* page menu */
