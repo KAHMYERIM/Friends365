@@ -144,7 +144,6 @@ header{
 }
 .lan{
     position: relative;
-    margin: 0 30px;
 }
 
 /* lan 서브메뉴 꾸미기 */
@@ -210,10 +209,9 @@ header{
     letter-spacing: 0.5px;
 }
 .text1 h1{
-    font-family: 'Jalnan';
+    font-family: 'yg-jalnan';
     letter-spacing: 4px;
     font-size: 100px;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* page menu */

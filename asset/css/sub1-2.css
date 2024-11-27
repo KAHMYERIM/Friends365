@@ -143,7 +143,6 @@ header{
 }
 .lan{
     position: relative;
-    margin: 0 30px;
 }
 
 /* lan 서브메뉴 꾸미기 */
@@ -198,9 +197,8 @@ header{
 .main_in2 h1{
     font-size: 90px;
     padding-top: 10px;
-    font-family: 'Jalnan';
+    font-family: 'yg-jalnan';
     letter-spacing: 5px;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .main_in2 img{
     position: absolute;
@@ -285,11 +283,11 @@ header{
     color: #fff;
 }
 .text h1{
-    margin: 70px 140px 30px;
+    margin: 70px 146px 30px;
     font-size: 48px;
 }
 .text p{
-    margin-left: 140px;
+    margin: 0px 74px 0 146px;
     font-size: 24px;
     line-height: 35px;
     font-weight: 600;
@@ -326,12 +324,12 @@ header{
 }
 .text2 h1{
     text-align: end;
-    margin: 80px 140px 30px;
+    margin: 86px 146px 30px;
     font-size: 48px;
 }
 .text2 p{
     text-align: end;
-    margin-right: 140px;
+    margin: 0 146px 0 74px;
     font-size: 24px;
     line-height: 35px;
     font-weight: 600;

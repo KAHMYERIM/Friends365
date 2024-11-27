@@ -144,7 +144,6 @@ header{
 }
 .lan{
     position: relative;
-    margin: 0 30px;
 }
 
 /* lan 서브메뉴 꾸미기 */
@@ -1142,7 +1141,7 @@ input::-webkit-search-results-decoration{
 .b_banner h1{
     font-size: 80px;
     letter-spacing: 1.5px;
-    font-family: 'jalnan';
+    font-family: 'yg-jalnan';
     color: #fff;
     width: 1320px;
     margin: auto;

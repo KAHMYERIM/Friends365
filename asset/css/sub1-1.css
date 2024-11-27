@@ -145,7 +145,6 @@ header {
 }
 .lan{
     position: relative;
-    margin: 0 30px;
 }
 
 /* lan 서브메뉴 꾸미기 */
@@ -200,9 +199,8 @@ header {
 .main_in2 h1 {
     font-size: 90px;
     padding-top: 10px;
-    font-family: 'Jalnan';
+    font-family: 'yg-jalnan';
     letter-spacing: 5px;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .main_in2 img {
     position: absolute;
