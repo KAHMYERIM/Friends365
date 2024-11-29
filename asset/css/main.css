@@ -724,6 +724,12 @@ header{
 .content4_in[data-aos=fade-left]{
     transform: translate3d(800px, 0px, 0px);
 }
+.text2{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .text2 h1{
     font-size: 50px;
     margin-bottom: 20px;
@@ -967,12 +973,12 @@ input::-webkit-search-results-decoration{
 .bu{
     position: absolute;
     top: 0;
-    left: -350px;
+    left: -300px;
 }
 .cl1{
     position: absolute;
     top: 100px;
-    left: 300px;
+    left: 350px;
     animation: left 1.5s linear infinite alternate;
 }
 @keyframes left{
@@ -982,16 +988,18 @@ input::-webkit-search-results-decoration{
 .cl2{
     position: absolute;
     bottom: 90px;
-    left: -200px;
+    left: -150px;
     animation: left 1.5s linear infinite alternate;
 }
 .text4{
     color: #fff;
     position: absolute;
-    top: 50%;
-    margin-top: -118px;
-    right: 110px;
+    right: 10px;
     text-align: end;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .text4 h1{
     letter-spacing: 0.5px;
